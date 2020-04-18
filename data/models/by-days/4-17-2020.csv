@@ -1,4 +1,4 @@
-FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key
+FIPS,Admin2,Province_State,Country,Last_Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key
 45001,Abbeville,South Carolina,US,2020-04-17 23:30:52,34.22333378,-82.46170658,10,0,0,10,"Abbeville, South Carolina, US"
 22001,Acadia,Louisiana,US,2020-04-17 23:30:52,30.295064899999996,-92.41419698,110,6,0,104,"Acadia, Louisiana, US"
 51001,Accomack,Virginia,US,2020-04-17 23:30:52,37.76707161,-75.63234615,28,0,0,28,"Accomack, Virginia, US"
