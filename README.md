@@ -1,4 +1,4 @@
 # NEURAL NETWORK for COVID-19 Predictions
-🔬📈 Model for predicting positive cases of COVID19 desease for the next day.
-
 *More info soon...*
+
+Don't forget to wash your hands 👏🧼 and wear face mask in public 😷.
