@@ -1,4 +1,4 @@
-# NEURAL NETWORK for COVID-19 Predictions
+# NEURAL NETWORK for COVID-19
 *More info soon...*
 
 ### How to protect yourself?
