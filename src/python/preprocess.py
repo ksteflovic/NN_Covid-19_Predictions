@@ -1,4 +1,5 @@
 from sklearn.preprocessing import OrdinalEncoder
+import datetime as dt
 
 class preprocess():
 
@@ -20,3 +21,13 @@ class preprocess():
         df['weekofyear'] = df['Date'].dt.weekofyear
         return df
 
+    # rozdelim trenovaciu mnozinu
+    def train_split(df, days):
+        date = df['Date'].max() - dt.timedelta(days=days)
+        return df[df['Date'] <= date], df[df['Date'] > date]
+
+    # Aby sa zabranilo preteceniu udajov, prekrujem datumy v trenovacej a v testovacej mnozine
+    # Preto odstranim udaje, ktore uz existuju v testovacej mnozine
+    def avoid_data_leakage(df, date_min):
+        # date_min je minimalny datum z testovacej mnoziny
+        return df[df['Date'] < date_min]
