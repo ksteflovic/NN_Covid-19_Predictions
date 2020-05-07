@@ -6,17 +6,24 @@
 Coronavirus disease (**COVID-19**) is an *infectious disease* caused by a newly discovered coronavirus.
 Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
 
-### *How it spreads?*
+### *How does it spreads?*
 
-The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
+The virus that causes *COVID-19* is mainly transmitted through **droplets** generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
 
-You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your *eyes*, *nose* or *mouth*.
 
-## Interesting websites 🌐
-- Coronavirus Map -> https://covid19.health/
+  > The virus caused a big pandemia, which started in China, in whe end of the year 2019. In the beggining of 2020 COVID-19 started spreading the whole world rapidly fast. See the map below.
+  
+![world](docs/images/COVID-19-outbreak-timeline.gif)
+<p align="right"><sup><strong>Image <a href="https://commons.wikimedia.org/wiki/File:COVID-19-outbreak-timeline.gif" target="_blank">source</a>.</strong></sup></p>
 
+### How to protect yourself?
+- *wash* your *hands* often 👏🧼
+- maintain a *safe distance* from anyone who is *coughing* or *sneezing* 🤧
+- wear *face mask* in public 😷
+- stay *home* if you feel unwell 🤒
 
-## Famous quotes „“
+### Famous quotes „“
 ---
   <img align="right" src="docs/images/people/trump.jpg" width="80px" height="80px">
 
@@ -55,11 +62,18 @@ You can be infected by breathing in the virus if you are within close proximity 
   <br>
   <p align="right"><sup><strong>Image <a href="https://www.dreamstime.com/march-secretary-state-foreign-commonwealth-affairs-boris-johnson-editorial-use-march-secretary-state-image112524424" target="_blank">source</a>.</strong></sup></p>
 
+### Interesting websites 🌐
+- Coronavirus Map -> https://covid19.health/
 
-### How to protect yourself?
-- *wash* your *hands* often 👏🧼
-- maintain a *safe distance* from anyone who is *coughing* or *sneezing* 🤧
-- wear *face mask* in public 😷
-- stay *home* if you feel unwell 🤒
+
+
+# About this repository
+
+
+
+
+
+
+
 
 **Keep strong, world! Stay safe.**
