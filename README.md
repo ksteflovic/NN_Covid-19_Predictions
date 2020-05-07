@@ -23,6 +23,19 @@ You can be infected by breathing in the virus if you are within close proximity 
 - wear *face mask* in public 😷
 - stay *home* if you feel unwell 🤒
 
+### Positive cases
+
+
+
+### Or...
+Help flatten the Coronavirus curve by self-isolating!
+
+![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
+
+Think twice, do you really need to go outside?
+
+![transmission](docs/images/Covid-19-Transmission-graphic-01.gif)  
+
 ### Famous quotes „“
 ---
   <img align="right" src="docs/images/people/trump.jpg" width="80px" height="80px">
@@ -62,18 +75,49 @@ You can be infected by breathing in the virus if you are within close proximity 
   <br>
   <p align="right"><sup><strong>Image <a href="https://www.dreamstime.com/march-secretary-state-foreign-commonwealth-affairs-boris-johnson-editorial-use-march-secretary-state-image112524424" target="_blank">source</a>.</strong></sup></p>
 
+---
+
+
 ### Interesting websites 🌐
 - Coronavirus Map -> https://covid19.health/
 
-
-
+---
 # About this repository
 
+This work represents **Jupyter python project** to predict the spread of COVID19 per given country for the next days.
+
+### Folder structure
+<pre><code>📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data">data</a>
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data/models">models</a> - contains <em>.csv</em> datasets
+     ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data/models/by-days">by-days</a> - used for data visualization
+     ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data/models/c19-week-1">c19-week-1</a> - <em>not used</em>
+     ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data/models/c19-week-4">c19-week-4</a> - used for <em>neural network</em>
+     ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/data/models/c19-week-5">c19-week-5</a> - newest data, but <em>not used</em>
+     └──📃README.md
+📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs">docs</a>
+ ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom">custom</a>
+ │   └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom/conavirus_disease_presentation.pptx">coronavirus_disease_presentation.pptx</a> - main powerpoint <strong>presentaton</strong>
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/images">images</a> - contains images for README files
+📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src">src</a>
+ ├──📁notebooks
+ │   ├──📁neural_network
+ │   │   ├──📃__init__.py
+ │   │   └──📃notebook_covid-19.ipynb - <strong>Neural network for Covid-19 predictions</strong>
+ │   └──📁visualization
+ │       ├──📃__init__.py
+ │       ├──📃data_curve_visualization.ipynb
+ │       ├──📃data_visualization_europe.ipynb
+ │       └──📃map_visualization.ipynb
+ └──📁python
+     └──📃country_utils.py
+📃.gitignore
+📃README.md - file you are reading right now
+</code></pre>
 
 
 
 
 
 
-
+![world](docs/images/covid_world.jpeg)
 **Keep strong, world! Stay safe.**
