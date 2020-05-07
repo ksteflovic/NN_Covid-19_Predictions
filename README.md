@@ -1,7 +1,22 @@
 # NEURAL NETWORK for COVID-19
-*More info soon...*
+  > **Note:** This repository is made mainly in *slovak* language.
 
-## Famous quotes
+### *What is Covid 19?*
+
+Coronavirus disease (**COVID-19**) is an *infectious disease* caused by a newly discovered coronavirus.
+Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
+
+### *How it spreads?*
+
+The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
+
+You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+
+## Interesting websites 🌐
+- Coronavirus Map -> https://covid19.health/
+
+
+## Famous quotes „“
 ---
   <img align="right" src="docs/images/people/trump.jpg" width="80px" height="80px">
 
@@ -18,7 +33,8 @@
   
   > **Jair Messias Bolsonaro,** ***29.4.2020***
   
-  <p align="right"><sup><strong>Image <a href="https://www.shutterstock.com/image-vector/andrej-czech-entrepreneur-businessman-politician-vector-746499280" target="_blank">source</a>.</strong></sup></p>
+  <br>
+  <p align="right"><sup><strong>Image <a href="https://www.shutterstock.com/image-vector/west-nusa-tenggara-indonesia-april-09-1698476086" target="_blank">source</a>.</strong></sup></p>
   
 ---
   <img align="right" src="docs/images/people/babis.png" width="90px" height="80px">
