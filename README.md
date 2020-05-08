@@ -17,20 +17,29 @@ You can be infected by breathing in the virus if you are within close proximity 
 ![world](docs/images/COVID-19-outbreak-timeline.gif)
 <p align="right"><sup><strong>Image <a href="https://commons.wikimedia.org/wiki/File:COVID-19-outbreak-timeline.gif" target="_blank">source</a>.</strong></sup></p>
 
-### How to protect yourself?
+### *How to protect yourself?*
 - *wash* your *hands* often 👏🧼
 - maintain a *safe distance* from anyone who is *coughing* or *sneezing* 🤧
 - wear *face mask* in public 😷
 - stay *home* if you feel unwell 🤒
 
-### Positive cases
+### *Health care*
+***What happens when you get the coronavirus disease?***
 
+People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period **5**-**6** days, range **1**-**14** days). Most people infected with COVID-19 virus have mild disease and recover.
 
+***Recovery***
+
+Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+
+## *But what happens, if a lot of people get sick?*
+
+![curve](docs/images/flattencurve_1024.gif)
+
+![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
 
 ### Or...
 Help flatten the Coronavirus curve by self-isolating!
-
-![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
 
 Think twice, do you really need to go outside?
 
@@ -115,6 +124,15 @@ This work represents **Jupyter python project** to predict the spread of COVID19
 </code></pre>
 
 ## Working with data
+I am using dataset:
+```
+https://www.kaggle.com/c/covid19-global-forecasting-week-4/data
+```
+
+This dataset contains three files:
+- submition.csv
+- test.csv
+- train.csv
 
 
 
