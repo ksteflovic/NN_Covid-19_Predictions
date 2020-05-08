@@ -1,5 +1,5 @@
 # NEURAL NETWORK for COVID-19
-  > **Note:** This repository is made mainly in *slovak* language.
+  > **Note:** This repository is written in *slovak* language.
 
 ### *What is Covid 19?*
 
@@ -17,20 +17,29 @@ You can be infected by breathing in the virus if you are within close proximity 
 ![world](docs/images/COVID-19-outbreak-timeline.gif)
 <p align="right"><sup><strong>Image <a href="https://commons.wikimedia.org/wiki/File:COVID-19-outbreak-timeline.gif" target="_blank">source</a>.</strong></sup></p>
 
-### How to protect yourself?
+### *How to protect yourself?*
 - *wash* your *hands* often 👏🧼
 - maintain a *safe distance* from anyone who is *coughing* or *sneezing* 🤧
 - wear *face mask* in public 😷
 - stay *home* if you feel unwell 🤒
 
-### Positive cases
+### *Health care*
+***What happens when you get the coronavirus disease?***
 
+People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period **5**-**6** days, range **1**-**14** days). Most people infected with COVID-19 virus have mild disease and recover.
 
+***Recovery***
+
+Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+
+## *But what happens, if a lot of people get sick?*
+
+![curve](docs/images/flattencurve_1024.gif)
+
+![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
 
 ### Or...
 Help flatten the Coronavirus curve by self-isolating!
-
-![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
 
 Think twice, do you really need to go outside?
 
@@ -79,8 +88,10 @@ Think twice, do you really need to go outside?
 
 
 ### Interesting websites 🌐
-- Coronavirus Map -> https://covid19.health/
-
+- [Coronavirus Map](https://covid19.health/)
+- [Google COVID-19](https://news.google.com/covid19/map?hl=sk&gl=SK&ceid=SK:sk)
+- [Playable COVID-19 simulations](https://meltingasphalt.com/interactive/outbreak/)
+- [Donald Trump quotes - more absurd they are, more confirmed cases of COVID-19 are in the USA](https://www.washingtonpost.com/graphics/2020/politics/trump-coronavirus-statements/)
 ---
 # About this repository
 
@@ -97,27 +108,33 @@ This work represents **Jupyter python project** to predict the spread of COVID19
 📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs">docs</a>
  ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom">custom</a>
  │   └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom/conavirus_disease_presentation.pptx">coronavirus_disease_presentation.pptx</a> - main powerpoint <strong>presentaton</strong>
- └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/images">images</a> - contains images for README files
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/images">images</a> - contains images for README files
 📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src">src</a>
- ├──📁notebooks
- │   ├──📁neural_network
- │   │   ├──📃__init__.py
- │   │   └──📃notebook_covid-19.ipynb - <strong>Neural network for Covid-19 predictions</strong>
- │   └──📁visualization
- │       ├──📃__init__.py
- │       ├──📃data_curve_visualization.ipynb
- │       ├──📃data_visualization_europe.ipynb
- │       └──📃map_visualization.ipynb
- └──📁python
-     └──📃country_utils.py
-📃.gitignore
+ ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks">notebooks</a>
+ │   ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network">neural_network</a>
+ │   │   ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network/__init__.py">__init__.py</a>
+ │   │   └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network/notebook_covid-19.ipynb">notebook_covid-19.ipynb</a> - <strong>Neural network for Covid-19 predictions</strong>
+ │   └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/visualization">visualization</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/__init__.py">__init__.py</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/data_curve_visualization.ipynb">data_curve_visualization.ipynb</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/data_visualization_europe.ipynb">data_visualization_europe.ipynb</a>
+ │       └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/map_visualization.ipynb">map_visualization.ipynb</a>
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/python">python</a>
+     └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/python/country_utils.py">country_utils.py</a>
+📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/.gitignore">.gitignore</a> - nothing important
 📃README.md - file you are reading right now
 </code></pre>
 
+## Working with data
+I am using the dataset:
+```
+https://www.kaggle.com/c/covid19-global-forecasting-week-4/data
+```
 
+This dataset contains three files:
+- [```submission.csv```](data/models/c19-week-4/submission.csv)
+- [```test.csv```](data/models/c19-week-4/test.csv)
+- [```train.csv```](data/models/c19-week-4/train.csv)
 
-
-
-
+---
 ![world](docs/images/covid_world.jpeg)
-**Keep strong, world! Stay safe.**
