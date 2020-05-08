@@ -97,8 +97,6 @@ The points that I mentions before like *washing your hands*, *covering* your nos
 
 ---
 
-<br>
-
 ### Interesting websites 🌐
 - [Coronavirus Map](https://covid19.health/)
 - [Google COVID-19](https://news.google.com/covid19/map?hl=sk&gl=SK&ceid=SK:sk)
@@ -183,6 +181,27 @@ Comparing new cases of COVID-19 in Europe for different months.
 
 #### First day of May
 ![May](docs/images/graphs/may.png)
+
+**INTERACTIVE world map visualization**
+
+```python
+px.choropleth(df_map, 
+              locations="iso_alpha", 
+              color="ln(ConfirmedCases)", 
+              hover_name="Country_Region", 
+              hover_data=["ConfirmedCases"] ,
+              animation_frame="Date",
+              color_continuous_scale=px.colors.sequential.dense, 
+              title='Celkové potvrdené prípady nákazy vo svete (podľa dní)')
+```
+
+<p align="center">
+<img src="docs/images/graphs/world_map1.png">
+</p>
+
+<p align="center">
+<img src="docs/images/graphs/world_map2.png">
+</p>
 
 ---
 ![world](docs/images/covid_world.jpeg)
