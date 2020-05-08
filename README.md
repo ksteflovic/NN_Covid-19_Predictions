@@ -88,8 +88,10 @@ Think twice, do you really need to go outside?
 
 
 ### Interesting websites 🌐
-- Coronavirus Map -> https://covid19.health/
-
+- [Coronavirus Map](https://covid19.health/)
+- [Google COVID-19](https://news.google.com/covid19/map?hl=sk&gl=SK&ceid=SK:sk)
+- [Playable COVID-19 simulations](https://meltingasphalt.com/interactive/outbreak/)
+- [Donald Trump quotes - more absurd they are, more confirmed cases of COVID-19 are in the USA](https://www.washingtonpost.com/graphics/2020/politics/trump-coronavirus-statements/)
 ---
 # About this repository
 
@@ -124,19 +126,15 @@ This work represents **Jupyter python project** to predict the spread of COVID19
 </code></pre>
 
 ## Working with data
-I am using dataset:
+I am using the dataset:
 ```
 https://www.kaggle.com/c/covid19-global-forecasting-week-4/data
 ```
 
 This dataset contains three files:
-- submition.csv
-- test.csv
-- train.csv
+- [```submission.csv```](data/models/c19-week-4/submission.csv)
+- [```test.csv```](data/models/c19-week-4/test.csv)
+- [```train.csv```](data/models/c19-week-4/train.csv)
 
-
-
-
+---
 ![world](docs/images/covid_world.jpeg)
-
-**Keep strong, world! Stay safe.**
