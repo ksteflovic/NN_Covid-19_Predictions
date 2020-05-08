@@ -86,12 +86,14 @@ Think twice, do you really need to go outside?
 
 ---
 
+<br>
 
 ### Interesting websites 🌐
 - [Coronavirus Map](https://covid19.health/)
 - [Google COVID-19](https://news.google.com/covid19/map?hl=sk&gl=SK&ceid=SK:sk)
 - [Playable COVID-19 simulations](https://meltingasphalt.com/interactive/outbreak/)
 - [Donald Trump quotes - more absurd they are, more confirmed cases of COVID-19 are in the USA](https://www.washingtonpost.com/graphics/2020/politics/trump-coronavirus-statements/)
+- [COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 ---
 # About this repository
 
