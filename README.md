@@ -97,27 +97,28 @@ This work represents **Jupyter python project** to predict the spread of COVID19
 📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs">docs</a>
  ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom">custom</a>
  │   └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/custom/conavirus_disease_presentation.pptx">coronavirus_disease_presentation.pptx</a> - main powerpoint <strong>presentaton</strong>
- └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/images">images</a> - contains images for README files
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/docs/images">images</a> - contains images for README files
 📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src">src</a>
- ├──📁notebooks
- │   ├──📁neural_network
- │   │   ├──📃__init__.py
- │   │   └──📃notebook_covid-19.ipynb - <strong>Neural network for Covid-19 predictions</strong>
- │   └──📁visualization
- │       ├──📃__init__.py
- │       ├──📃data_curve_visualization.ipynb
- │       ├──📃data_visualization_europe.ipynb
- │       └──📃map_visualization.ipynb
- └──📁python
-     └──📃country_utils.py
-📃.gitignore
+ ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks">notebooks</a>
+ │   ├──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network">neural_network</a>
+ │   │   ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network/__init__.py">__init__.py</a>
+ │   │   └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/neural_network/notebook_covid-19.ipynb">notebook_covid-19.ipynb</a> - <strong>Neural network for Covid-19 predictions</strong>
+ │   └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/visualization">visualization</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/__init__.py">__init__.py</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/data_curve_visualization.ipynb">data_curve_visualization.ipynb</a>
+ │       ├──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/data_visualization_europe.ipynb">data_visualization_europe.ipynb</a>
+ │       └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/notebooks/visualization/map_visualization.ipynb">map_visualization.ipynb</a>
+ └──📁<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/python">python</a>
+     └──📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/src/python/country_utils.py">country_utils.py</a>
+📃<a href="https://github.com/pajka-js/Steflovicova_NS2019/tree/master/.gitignore">.gitignore</a> - nothing important
 📃README.md - file you are reading right now
 </code></pre>
 
-
+## Working with data
 
 
 
 
 ![world](docs/images/covid_world.jpeg)
+
 **Keep strong, world! Stay safe.**
