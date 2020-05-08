@@ -151,7 +151,7 @@ This dataset contains three files:
 - [```test.csv```](data/models/c19-week-4/test.csv)
 - [```train.csv```](data/models/c19-week-4/train.csv)
 
-I used ```sklearn``` for predicting a new cases.
+I used [```sklearn```](https://scikit-learn.org/stable/) for predicting a new cases.
 
 ```python
 from sklearn.linear_model import LinearRegression
