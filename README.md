@@ -1,7 +1,7 @@
 # NEURAL NETWORK for COVID-19
   > **Note:** This repository is written in *slovak* language.
 
-### *What is Covid 19?*
+### *What is Covid-19?*
 
 Coronavirus disease (**COVID-19**) is an *infectious disease* caused by a newly discovered coronavirus.
 Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
@@ -150,6 +150,22 @@ This dataset contains three files:
 - [```submission.csv```](data/models/c19-week-4/submission.csv)
 - [```test.csv```](data/models/c19-week-4/test.csv)
 - [```train.csv```](data/models/c19-week-4/train.csv)
+
+I used ```sklearn``` for predicting a new cases.
+
+```python
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
+```
+Here's a look for a graph, on which we can see prediction of four counries for the future days.
+
+|  |  |
+| ------------- | ------------- |
+| ![Slovakia](docs/images/graphs/slovakia.png) | ![Albania](docs/images/graphs/albania.png) |
+| ![India](docs/images/graphs/india.png) | ![Hungary](docs/images/graphs/hungary.png) |
+
+  > We can see errors on India's graph. Line of onfirmed cases is growing very fast (exponentialy), predicte cases are growing 
+linearly.
 
 ### Visualization dataset
 Only for days comparison:
