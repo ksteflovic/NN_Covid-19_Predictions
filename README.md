@@ -105,6 +105,7 @@ The points that I mentions before like *washing your hands*, *covering* your nos
 - [Playable COVID-19 simulations](https://meltingasphalt.com/interactive/outbreak/)
 - [Donald Trump quotes - more absurd they are, more confirmed cases of COVID-19 are in the USA](https://www.washingtonpost.com/graphics/2020/politics/trump-coronavirus-statements/)
 - [COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+- [Coronavirus (COVID-19) Cases](https://ourworldindata.org/covid-cases?country=SVK)
 ---
 # About this repository
 
