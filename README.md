@@ -1,5 +1,5 @@
 # NEURAL NETWORK for COVID-19
-  > **Note:** This repository is made mainly in *slovak* language.
+  > **Note:** This repository is written in *slovak* language.
 
 ### *What is Covid 19?*
 
