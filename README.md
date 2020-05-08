@@ -35,15 +35,26 @@ Using available preliminary data, the median time from onset to clinical recover
 ## *But what happens, if a lot of people get sick?*
 
 ![curve](docs/images/flattencurve_1024.gif)
+If you look at the image above, you can see *two* curves. The tall, skinny curve is **bad** – it means that a lot of people will get sick at once, in a short period of time because we don’t take enough steps to prevent the virus from spreading from person to person.
+
+Most people won’t get sick enough to need a hospital. But those who do could overwhelm the number of beds and care teams that our nation’s hospitals have available.
+
+***Another key factor to consider:*** the doctors, nurses, pharmacists, technicians and many other staff who actually work in healthcare. The more cases of COVID-19 there are at any given time, the more likely some of them are to catch it, whether in the community or at work. Once they’re sick, they need to stay away from patients for weeks. Which means fewer people to take care of the patients who need care.
+
+### *What we should do?*
 
 ![spreading](docs/images/Covid-19-curves-graphic2-stopthespread-v2.gif)
 
-### Or...
+### *Or...*
 Help flatten the Coronavirus curve by self-isolating!
 
 Think twice, do you really need to go outside?
 
 ![transmission](docs/images/Covid-19-Transmission-graphic-01.gif)  
+
+The points that I mentions before like *washing your hands*, *covering* your nose and mouth when you *cough* or *sneez*e and *staying home* if you’re not feeling well all help slow the spread of the new coronavirus (COVID-19).
+
+**Keep strong world! Stay safe.**
 
 ### Famous quotes „“
 ---
@@ -128,7 +139,8 @@ This work represents **Jupyter python project** to predict the spread of COVID19
 </code></pre>
 
 ## Working with data
-I am using the dataset:
+### Neural Network dataset
+Datasets used in this project:
 ```
 https://www.kaggle.com/c/covid19-global-forecasting-week-4/data
 ```
@@ -137,6 +149,23 @@ This dataset contains three files:
 - [```submission.csv```](data/models/c19-week-4/submission.csv)
 - [```test.csv```](data/models/c19-week-4/test.csv)
 - [```train.csv```](data/models/c19-week-4/train.csv)
+
+### Visualization dataset
+Only for days comparison:
+```
+https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+```
+I used two files from this dataset:
+- [```04-01-2020.csv```](data/models/by_days/04-01-2020.csv) - first day od April month
+- [```05-01-2020.csv```](data/models/by_days/05-01-2020.csv) - first day of May month
+
+Comparing new cases of COVID-19 in Europe for different months.
+
+#### First day of April
+![April](docs/images/graphs/april.png)
+
+#### First day of May
+![May](docs/images/graphs/may.png)
 
 ---
 ![world](docs/images/covid_world.jpeg)
